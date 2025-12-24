@@ -1,0 +1,30 @@
+# ===============================
+# Vivado auto-generated files
+# ===============================
+
+# Logs & project files
+*.jou
+*.log
+*.str
+*.xpr
+*.bda
+
+# Auto-generated directories
+.cache/
+.gen/
+.hw/
+.runs/
+.sim/
+.tmp/
+
+# ===============================
+# IP generated files
+# (keep only .xci)
+# ===============================
+**/ip/**/*
+!**/ip/**/*.xci
+
+# ===============================
+# Block Design UI state
+# ===============================
+**/bd/**/ui/

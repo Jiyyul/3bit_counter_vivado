@@ -1,0 +1,399 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x5DB1411F5DB1411F",
+      "device": "xc7a35tcsg324-1",
+      "gen_directory": "../../../../fianl_project.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2025.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "And_0": "",
+      "Not_0": "",
+      "Or_0": "",
+      "Or_1": "",
+      "Not_1": "",
+      "Not_2": "",
+      "And_1": "",
+      "Or_2": "",
+      "Or_3": "",
+      "Not_3": "",
+      "Not_4": "",
+      "Not_5": "",
+      "And_2": "",
+      "And_3": "",
+      "Not_6": "",
+      "And_4": "",
+      "And_5": "",
+      "Or_4": "",
+      "Or_5": "",
+      "Not_7": "",
+      "Not_8": "",
+      "Not_9": "",
+      "Not_10": ""
+    },
+    "ports": {
+      "clk": {
+        "direction": "I"
+      },
+      "d1": {
+        "direction": "I"
+      },
+      "Q": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "And_0": {
+        "vlnv": "xilinx.com:user:And:1.0",
+        "ip_revision": "5",
+        "xci_name": "design_1_And_0_0",
+        "xci_path": "ip\\design_1_And_0_0\\design_1_And_0_0.xci",
+        "inst_hier_path": "And_0",
+        "has_run_ip_tcl": "true"
+      },
+      "Not_0": {
+        "vlnv": "xilinx.com:user:Not:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_Not_0_0",
+        "xci_path": "ip\\design_1_Not_0_0\\design_1_Not_0_0.xci",
+        "inst_hier_path": "Not_0",
+        "has_run_ip_tcl": "true"
+      },
+      "Or_0": {
+        "vlnv": "xilinx.com:user:Or:1.0",
+        "ip_revision": "2",
+        "xci_name": "design_1_Or_0_0",
+        "xci_path": "ip\\design_1_Or_0_0\\design_1_Or_0_0.xci",
+        "inst_hier_path": "Or_0",
+        "has_run_ip_tcl": "true"
+      },
+      "Or_1": {
+        "vlnv": "xilinx.com:user:Or:1.0",
+        "ip_revision": "2",
+        "xci_name": "design_1_Or_0_1",
+        "xci_path": "ip\\design_1_Or_0_1\\design_1_Or_0_1.xci",
+        "inst_hier_path": "Or_1",
+        "has_run_ip_tcl": "true"
+      },
+      "Not_1": {
+        "vlnv": "xilinx.com:user:Not:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_Not_0_1",
+        "xci_path": "ip\\design_1_Not_0_1\\design_1_Not_0_1.xci",
+        "inst_hier_path": "Not_1",
+        "has_run_ip_tcl": "true"
+      },
+      "Not_2": {
+        "vlnv": "xilinx.com:user:Not:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_Not_0_2",
+        "xci_path": "ip\\design_1_Not_0_2\\design_1_Not_0_2.xci",
+        "inst_hier_path": "Not_2",
+        "has_run_ip_tcl": "true"
+      },
+      "And_1": {
+        "vlnv": "xilinx.com:user:And:1.0",
+        "ip_revision": "5",
+        "xci_name": "design_1_And_0_1",
+        "xci_path": "ip\\design_1_And_0_1\\design_1_And_0_1.xci",
+        "inst_hier_path": "And_1",
+        "has_run_ip_tcl": "true"
+      },
+      "Or_2": {
+        "vlnv": "xilinx.com:user:Or:1.0",
+        "ip_revision": "2",
+        "xci_name": "design_1_Or_0_3",
+        "xci_path": "ip\\design_1_Or_0_3\\design_1_Or_0_3.xci",
+        "inst_hier_path": "Or_2",
+        "has_run_ip_tcl": "true"
+      },
+      "Or_3": {
+        "vlnv": "xilinx.com:user:Or:1.0",
+        "ip_revision": "2",
+        "xci_name": "design_1_Or_2_1",
+        "xci_path": "ip\\design_1_Or_2_1\\design_1_Or_2_1.xci",
+        "inst_hier_path": "Or_3",
+        "has_run_ip_tcl": "true"
+      },
+      "Not_3": {
+        "vlnv": "xilinx.com:user:Not:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_Not_1_0",
+        "xci_path": "ip\\design_1_Not_1_0\\design_1_Not_1_0.xci",
+        "inst_hier_path": "Not_3",
+        "has_run_ip_tcl": "true"
+      },
+      "Not_4": {
+        "vlnv": "xilinx.com:user:Not:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_Not_1_1",
+        "xci_path": "ip\\design_1_Not_1_1\\design_1_Not_1_1.xci",
+        "inst_hier_path": "Not_4",
+        "has_run_ip_tcl": "true"
+      },
+      "Not_5": {
+        "vlnv": "xilinx.com:user:Not:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_Not_1_2",
+        "xci_path": "ip\\design_1_Not_1_2\\design_1_Not_1_2.xci",
+        "inst_hier_path": "Not_5",
+        "has_run_ip_tcl": "true"
+      },
+      "And_2": {
+        "vlnv": "xilinx.com:user:And:1.0",
+        "ip_revision": "5",
+        "xci_name": "design_1_And_0_2",
+        "xci_path": "ip\\design_1_And_0_2\\design_1_And_0_2.xci",
+        "inst_hier_path": "And_2",
+        "has_run_ip_tcl": "true"
+      },
+      "And_3": {
+        "vlnv": "xilinx.com:user:And:1.0",
+        "ip_revision": "5",
+        "xci_name": "design_1_And_0_3",
+        "xci_path": "ip\\design_1_And_0_3\\design_1_And_0_3.xci",
+        "inst_hier_path": "And_3",
+        "has_run_ip_tcl": "true"
+      },
+      "Not_6": {
+        "vlnv": "xilinx.com:user:Not:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_Not_3_0",
+        "xci_path": "ip\\design_1_Not_3_0\\design_1_Not_3_0.xci",
+        "inst_hier_path": "Not_6",
+        "has_run_ip_tcl": "true"
+      },
+      "And_4": {
+        "vlnv": "xilinx.com:user:And:1.0",
+        "ip_revision": "5",
+        "xci_name": "design_1_And_2_0",
+        "xci_path": "ip\\design_1_And_2_0\\design_1_And_2_0.xci",
+        "inst_hier_path": "And_4",
+        "has_run_ip_tcl": "true"
+      },
+      "And_5": {
+        "vlnv": "xilinx.com:user:And:1.0",
+        "ip_revision": "5",
+        "xci_name": "design_1_And_2_1",
+        "xci_path": "ip\\design_1_And_2_1\\design_1_And_2_1.xci",
+        "inst_hier_path": "And_5",
+        "has_run_ip_tcl": "true"
+      },
+      "Or_4": {
+        "vlnv": "xilinx.com:user:Or:1.0",
+        "ip_revision": "2",
+        "xci_name": "design_1_Or_2_2",
+        "xci_path": "ip\\design_1_Or_2_2\\design_1_Or_2_2.xci",
+        "inst_hier_path": "Or_4",
+        "has_run_ip_tcl": "true"
+      },
+      "Or_5": {
+        "vlnv": "xilinx.com:user:Or:1.0",
+        "ip_revision": "2",
+        "xci_name": "design_1_Or_4_0",
+        "xci_path": "ip\\design_1_Or_4_0\\design_1_Or_4_0.xci",
+        "inst_hier_path": "Or_5",
+        "has_run_ip_tcl": "true"
+      },
+      "Not_7": {
+        "vlnv": "xilinx.com:user:Not:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_Not_4_0",
+        "xci_path": "ip\\design_1_Not_4_0\\design_1_Not_4_0.xci",
+        "inst_hier_path": "Not_7",
+        "has_run_ip_tcl": "true"
+      },
+      "Not_8": {
+        "vlnv": "xilinx.com:user:Not:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_Not_7_0",
+        "xci_path": "ip\\design_1_Not_7_0\\design_1_Not_7_0.xci",
+        "inst_hier_path": "Not_8",
+        "has_run_ip_tcl": "true"
+      },
+      "Not_9": {
+        "vlnv": "xilinx.com:user:Not:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_Not_5_0",
+        "xci_path": "ip\\design_1_Not_5_0\\design_1_Not_5_0.xci",
+        "inst_hier_path": "Not_9",
+        "has_run_ip_tcl": "true"
+      },
+      "Not_10": {
+        "vlnv": "xilinx.com:user:Not:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_Not_6_0",
+        "xci_path": "ip\\design_1_Not_6_0\\design_1_Not_6_0.xci",
+        "inst_hier_path": "Not_10",
+        "has_run_ip_tcl": "true"
+      }
+    },
+    "nets": {
+      "And_0_y": {
+        "ports": [
+          "And_0/y",
+          "Or_0/a"
+        ]
+      },
+      "And_1_y": {
+        "ports": [
+          "And_1/y",
+          "Or_1/b"
+        ]
+      },
+      "And_2_y": {
+        "ports": [
+          "And_2/y",
+          "Or_2/a"
+        ]
+      },
+      "And_3_y": {
+        "ports": [
+          "And_3/y",
+          "Or_3/b"
+        ]
+      },
+      "And_4_y": {
+        "ports": [
+          "And_4/y",
+          "Or_4/a"
+        ]
+      },
+      "And_5_y": {
+        "ports": [
+          "And_5/y",
+          "Or_5/b"
+        ]
+      },
+      "Net": {
+        "ports": [
+          "clk",
+          "And_0/b",
+          "And_1/a",
+          "Not_6/a"
+        ]
+      },
+      "Not_0_y": {
+        "ports": [
+          "Not_0/y",
+          "And_1/b"
+        ]
+      },
+      "Not_10_y": {
+        "ports": [
+          "Not_10/y",
+          "And_4/b",
+          "And_5/a"
+        ]
+      },
+      "Not_1_y": {
+        "ports": [
+          "Not_1/y",
+          "Or_1/a",
+          "And_2/a"
+        ]
+      },
+      "Not_2_y": {
+        "ports": [
+          "Not_2/y",
+          "Or_0/b",
+          "Not_3/a"
+        ]
+      },
+      "Not_3_y": {
+        "ports": [
+          "Not_3/y",
+          "And_3/b"
+        ]
+      },
+      "Not_4_y": {
+        "ports": [
+          "Not_4/y",
+          "Or_3/a",
+          "And_4/a"
+        ]
+      },
+      "Not_5_y": {
+        "ports": [
+          "Not_5/y",
+          "Or_2/b",
+          "Not_9/a"
+        ]
+      },
+      "Not_6_y": {
+        "ports": [
+          "Not_6/y",
+          "Not_10/a",
+          "And_2/b",
+          "And_3/a"
+        ]
+      },
+      "Not_7_y": {
+        "ports": [
+          "Not_7/y",
+          "Or_5/a"
+        ]
+      },
+      "Not_8_y": {
+        "ports": [
+          "Not_8/y",
+          "Or_4/b",
+          "Q"
+        ]
+      },
+      "Not_9_y": {
+        "ports": [
+          "Not_9/y",
+          "And_5/b"
+        ]
+      },
+      "Or_0_y": {
+        "ports": [
+          "Or_0/y",
+          "Not_1/a"
+        ]
+      },
+      "Or_1_y": {
+        "ports": [
+          "Or_1/y",
+          "Not_2/a"
+        ]
+      },
+      "Or_2_y": {
+        "ports": [
+          "Or_2/y",
+          "Not_4/a"
+        ]
+      },
+      "Or_3_y": {
+        "ports": [
+          "Or_3/y",
+          "Not_5/a"
+        ]
+      },
+      "Or_4_y": {
+        "ports": [
+          "Or_4/y",
+          "Not_7/a"
+        ]
+      },
+      "Or_5_y": {
+        "ports": [
+          "Or_5/y",
+          "Not_8/a"
+        ]
+      },
+      "d1_1": {
+        "ports": [
+          "d1",
+          "Not_0/a",
+          "And_0/a"
+        ]
+      }
+    }
+  }
+}
